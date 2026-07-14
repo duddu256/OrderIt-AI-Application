@@ -1,6 +1,6 @@
 # OrderIt - AI-Powered Food Ordering Application
 
-A full-stack food ordering web application built with the MERN stack, featuring AI capabilities, secure payments, and a seamless user experience. Originally designed for the Zyka restaurant, this p[...]
+A full-stack food ordering web application built with the MERN stack, featuring Groq AI-generated dish descriptions, AI capabilities, secure payments, and a seamless user experience. Originally designed for the Zyka restaurant, this project includes intelligent order management and cloud-based storage.
 
 ## 🚀 Features
 
@@ -16,6 +16,12 @@ A full-stack food ordering web application built with the MERN stack, featuring 
 - **Shopping Cart**: Add/remove items from cart with real-time updates
 - **Order Tracking**: View order history and detailed order information
 - **Order Management**: Track current and past orders with status updates
+
+### AI Dish Description Generation (Groq)
+- **Groq-powered Descriptions**: Automatically generates rich, appetizing, and SEO-friendly descriptions for menu items using Groq AI.
+- **Context-aware Text**: Produces descriptions based on ingredients, tags, and culinary style to improve customer engagement.
+- **Configurable Prompts**: Supports custom prompt templates for consistent voice and tone across items.
+- **Seed or On-Demand**: Can be run during data seeding to populate descriptions or triggered on-demand when adding/updating menu items.
 
 ### Payment Integration
 - **Stripe Integration**: Secure payment processing with Stripe API
