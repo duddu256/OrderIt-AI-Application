@@ -53,7 +53,6 @@ A full-stack food ordering web application built with the MERN stack, featuring 
 ### Admin Panel
 ![Admin](screenshots/admin.png)
 
-*Add your actual screenshots to the `screenshots/` folder in the repository*
 
 ## 🛠 Tech Stack
 
