@@ -1,6 +1,6 @@
 # OrderIt - AI-Powered Food Ordering Application
 
-A full-stack food ordering web application built with the MERN stack, featuring AI capabilities, secure payments, and a seamless user experience. Originally designed for the Zyka restaurant, this proj[...]
+A full-stack food ordering web application built with the MERN stack, featuring AI capabilities, secure payments, and a seamless user experience. Originally designed for the Zyka restaurant, this p[...]
 
 ## 🚀 Features
 
@@ -36,7 +36,7 @@ A full-stack food ordering web application built with the MERN stack, featuring 
 ## 📸 Screenshots
 
 ### Registration
-![Registration](screenshots/registertation.png.png)
+![Registration](screenshots/registeration.png.png)
 
 ### User Dashboard & Ordering
 ![Dashboard](screenshots/dashboard.png.png)
