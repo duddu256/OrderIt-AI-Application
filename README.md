@@ -1,6 +1,6 @@
 # OrderIt - AI-Powered Food Ordering Application
 
-A full-stack food ordering web application built with the MERN stack, featuring Groq AI-generated dish descriptions, AI capabilities, secure payments, and a seamless user experience. Originally designed for the Zyka restaurant, this project includes intelligent order management and cloud-based storage.
+A full-stack food ordering web application built with the MERN stack, featuring Groq AI-generated dish descriptions and restaurant review summaries, AI capabilities, secure payments, and a seamless user experience. Originally designed for the Zyka restaurant, this project includes intelligent order management and cloud-based storage.
 
 ## 🚀 Features
 
@@ -17,11 +17,16 @@ A full-stack food ordering web application built with the MERN stack, featuring 
 - **Order Tracking**: View order history and detailed order information
 - **Order Management**: Track current and past orders with status updates
 
-### AI Dish Description Generation (Groq)
-- **Groq-powered Descriptions**: Automatically generates rich, appetizing, and SEO-friendly descriptions for menu items using Groq AI.
-- **Context-aware Text**: Produces descriptions based on ingredients, tags, and culinary style to improve customer engagement.
-- **Configurable Prompts**: Supports custom prompt templates for consistent voice and tone across items.
-- **Seed or On-Demand**: Can be run during data seeding to populate descriptions or triggered on-demand when adding/updating menu items.
+### AI Dish & Review Summarization (Groq)
+- **Groq-powered Dish Descriptions**: Automatically generates rich, appetizing, and SEO-friendly descriptions for menu items using Groq AI.
+  - Produces context-aware text based on ingredients, tags, cuisine, and preparation style to improve customer engagement.
+  - Configurable prompt templates for consistent voice, tone, and length across items.
+  - Can be run during data seeding to populate descriptions or triggered on-demand when adding/updating menu items.
+- **Groq-powered Review Summaries**: Generates concise, sentiment-aware summaries of a restaurant using customer reviews.
+  - Aggregates customer feedback to surface common praises, complaints, and overall sentiment.
+  - Produces highlight bullets and a short summary suitable for display on restaurant pages.
+  - Supports configurable summary length and templates (e.g., short blurb, full summary, pros/cons list).
+  - Helps owners and customers quickly understand strengths and areas for improvement from real reviews.
 
 ### Payment Integration
 - **Stripe Integration**: Secure payment processing with Stripe API
